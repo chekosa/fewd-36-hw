@@ -7,7 +7,7 @@
 ##Agenda
 
 * Download Class 02 Starter Code.
-* Copy keanu/ from the starter code into your course work directory.
+* Copy the starter code into your course work directory.
 
 ---
 
@@ -52,7 +52,7 @@
 
 ![CSS Syntax](../../img/class02/css-syntax.png)
 
-* This CSS rule turns the text color of every paragraph, <p>, black
+* This CSS rule turns the text color of every paragraph, P, black
 
 ---
 
@@ -173,9 +173,16 @@ a { text-decoration: none; }
 
 ---
 
+##Sizes and Measures: Px and %
+
+Many CSS properties take a size as an input. Two common measures are pixels (px) and percent (%).
+
+
+---
+
 ##Code Along
 
-http://codepen.io/cheshireoctopus/pen/mexgPX?editors=110
+Style a Press Release
 
 ---
 
@@ -189,9 +196,9 @@ http://codepen.io/cheshireoctopus/pen/mexgPX?editors=110
 
 1) inline CSS
 
-2) <style> tag inside the <head> tag
+2) *style* tag inside the *head* tag
 
-3) link to an external file w/ <link> tag
+3) link to an external file w/ *link* tag
 
 ---
 
@@ -248,7 +255,7 @@ http://codepen.io/cheshireoctopus/pen/mexgPX?editors=110
  <body>
 ```
 
-* Like <title>, links to CSS go in <head>
+* Like *title*, links to CSS go in *head*
 * Truly separates HTML from CSS
 * Easiest to debug; just go to your CSS file!
 
@@ -284,7 +291,7 @@ http://codepen.io/cheshireoctopus/pen/mexgPX?editors=110
 
 *	Images are placed using the img tag.
 
-```<img src="img/imageName.jpg" alt="alternative text">```
+```&lt;img src="img/imageName.jpg" alt="alternative text"&gt;```
 
 ---
 
@@ -308,7 +315,7 @@ How would you write the src?
 
 *	Inside ```webroot```, a relative path could be used:
 
-####```<img src="images/logo.png">```
+```&lt;img src="images/logo.png"&gt;```
 
 ---
 
@@ -319,7 +326,7 @@ Relative Path
 
 Note:
 
-* Given this folder structure the same image would be ```<img src="../images/logo.png">``
+* Given this folder structure the same image would be ```&lt;img src="../images/logo.png"&gt;``
 *
 Note that ```..``` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
 
@@ -330,7 +337,7 @@ Note that ```..``` means to go up a directory, and can be used repeatedly: `../.
 
 Absolute Path
 
-```<img src="/images/logo.png">```
+```&lt;img src="/images/logo.png"&gt;```
 
 Note:
 
@@ -347,7 +354,7 @@ The downside is that the path only works if the project is stored to a proper lo
 ##HTML Basics - Images
 Full URL
 
-		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
+		&lt;img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg"&gt;
 
 Note:
 For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
@@ -359,7 +366,7 @@ For linking to images, make sure that you have permission to use the image in th
 
 alt attribute
 
-	<img src="puppy.jpg" alt="My cute puppy">
+	&lt;img src="puppy.jpg" alt="My cute puppy"&gt;
 
 Note:
 
@@ -413,11 +420,6 @@ Note:
 No transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
 
 
----
-
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##About Me
 
 ---
 
@@ -447,9 +449,9 @@ CSS should go in a separate file. We're going to start by placing them in the he
 
 Using a separate CSS file
 
-Its best practice to put CSS in its own file and link to it from the `<head>`.
+Its best practice to put CSS in its own file and link to it from the `&lt;head&gt;`.
 
-```<link rel="stylesheet" href="style.css">```
+```&lt;link rel="stylesheet" href="style.css"&gt;```
 
 Note:
 "The `link` tag needs two attributes: `rel="stylesheet"` and an `href` attribute.
@@ -662,4 +664,4 @@ Add a couple points here with the major takeaways for the basics of CSS.
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Lab Time
-*	Your Portfolio!
+*	Cookie Recipe
