@@ -1,0 +1,68 @@
+/*
+ Floating Sections Code-Along
+
+ Make the header red and 100% width
+ Main should be yellow and 60% wide
+ sideBar should be green and 40% wide
+ pageFooter should be blue and 100% width
+
+ */
+.twoCol .pageHeader {
+  float: left;
+  width: 100%;
+}
+
+.twoCol .main {
+  float: left;
+  width: 70%;
+}
+.twoCol .sideBar {
+  float: right;
+  width: 30%;
+}
+.twoCol .pageFooter {
+  float: left;
+  width: 100%;
+}
+
+.twoCol .placeholder {
+  border: 1px solid black;
+  background: grey;
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
+
+/* Three Column */
+
+.threeCol .pageHeader {
+  float: left;
+  width: 100%;
+}
+
+.threeCol .leftsideBar {
+  float: left;
+  width: 25%;
+}
+
+.threeCol .main {
+  float: left;
+  width: 50%;
+}
+.threeCol .rightsideBar {
+  float: left;
+  width: 25%;
+}
+.threeCol .pageFooter {
+  float: left;
+  width: 100%;
+}
+
+.threeCol .placeholder {
+  border: 1px solid black;
+  background: grey;
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
+

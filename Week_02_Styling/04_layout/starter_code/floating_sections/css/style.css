@@ -7,3 +7,22 @@
  pageFooter should be blue and 100% width
 
  */
+
+
+ .placeholder {
+ 	background: grey;
+ 	border: 6px solid black;
+ }
+
+ .sidebar {
+	width: : 60%;
+	float: left;
+
+}
+
+.main {
+	width: : 40%;
+	float: left;
+
+}
+
