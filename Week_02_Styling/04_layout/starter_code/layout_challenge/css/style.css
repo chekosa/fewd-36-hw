@@ -65,4 +65,93 @@
   height: 150px;
   margin: 10px;
 }
+/* Simple Marketing Columns */
 
+.simple-marketing .pageHeader {
+  float: left;
+  width: 100%;
+}
+
+
+.simple-marketing .left-column {
+  float: left;
+  width: 50%;
+}
+
+.simple-marketing .right-column {
+  float: left;
+  width: 50%;
+}
+
+/* 3boxes*/
+.simple-marketing .parent-box{
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.simple-marketing .box{
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+
+}
+.simple-marketing .box:last-child{
+  float: right;
+  }
+.simple-marketing .pageFooter {
+  float: left;
+  width: 100%;
+}
+
+.simple-marketing .placeholder {
+  border: 1px solid black;
+  background: grey;
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
+
+/* Marketing with Nav Columns */
+
+.marketing-nav .nav {
+  float: left;
+  width: 100%;
+}
+
+.marketing-nav .pageHeader {
+  float: left;
+  width: 100%;
+}
+
+
+.marketing-nav .left-column {
+  float: left;
+  width: 50%;
+}
+
+.marketing-nav .right-column {
+  float: left;
+  width: 50%;
+}
+
+/* 3boxes*/
+.marketing-nav .box{
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+
+}
+
+.marketing-nav .pageFooter {
+  float: left;
+  width: 100%;
+}
+
+.marketing-nav .placeholder {
+  border: 1px solid black;
+  background: grey;
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
