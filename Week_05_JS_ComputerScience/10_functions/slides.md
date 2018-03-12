@@ -6,9 +6,45 @@
 
 ##Agenda
 
+*   Review Comparison and Variables
 *	Functions
 *	Exercises
 *	Mood Swings
+
+
+---
+
+##New jQuery Method
+
+jQuery().attr();
+Gets or sets an attribute
+
+
+---
+
+##New Javascript Method
+
+trim()
+Removes any extraneous white space from the start or end of a string
+---
+
+
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+
+##Mood Swings
+
+---
+
+
+##Mood Swings - Useful Functions
+
+* preventDefault()
+* toLowerCase()
+* jQuery.click()
+* jQuery.attr()
+* jQuery.val()
+* trim()
+
 
 ---
 
@@ -115,27 +151,22 @@ Function add called with the arguments 5 and 2:
   add(5, 2)
   // returns 7
 ```
-
 ---
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Name Machine
-
-http://codepen.io/nickgrace/pen/BLNGLV
-
----
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Homework Grader
-
-http://codepen.io/nickgrace/pen/pEJQvG
-
----
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Bill Calculator
 
-http://codepen.io/nickgrace/pen/kkWQgN
+##Rock Paper Scissors
+
+
+---
+##Rock Paper Scissors - Useful Functions
+
+  event.preventDefault();
+  Math.random()
+  jQuery().text();
+  jQuery().html();
+
 
 ---
 
@@ -146,14 +177,22 @@ Where do you put functions
 ---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Mood Swings
+
+##Cash Register
 
 ---
 
-##Mood Swings - Useful Functions
+##Cash Register - Useful Functions
 
-* preventDefault()
-* toLowerCase()
-* jQuery.click()
-* jQuery.attr()
-* jQuery.val()
+  event.preventDefault();
+  parseFloat()
+  toFixed()
+  jQuery().append();
+  jQuery().val();
+  jQuery().submit();
+
+
+---
+
+
+
